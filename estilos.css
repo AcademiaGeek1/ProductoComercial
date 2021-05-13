@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: rgb(156, 171, 236);
+   
+}
+
+#modelos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+nav{
+    position: fixed;
+    text-decoration: none;
+}
+
+
+@media (max-width: 650px) {
+    nav > ul {
+      flex-direction: column;
+    }
+  }
